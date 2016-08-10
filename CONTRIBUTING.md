@@ -42,6 +42,7 @@ It is mainly [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accept
 * Files MUST NOT have an ending `?>` tag.
 * Code MUST use namespaces.
 * Strings SHOULD use the double quote `"` except when the single quote is required.
+* Method modifiers such as `abstract` and `final` MUST follow the visibility modifier. _(In PSR-2 it precedes the visibility modifier)_
 
 ```php
 <?php 
