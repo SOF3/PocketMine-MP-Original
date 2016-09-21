@@ -169,7 +169,7 @@ abstract class AsyncTask extends Collectable{
 	protected function fetchLocal(Server $server = null){
 		if($server === null){
 			$server = Server::getInstance();
-			assert $server !== null;
+			assert($server !== null, "Call this method only from the main thread!");
 		}
 
 		return $server->getScheduler()->fetchLocalComplex($this);
