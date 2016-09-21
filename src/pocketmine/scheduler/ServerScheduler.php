@@ -127,7 +127,7 @@ class ServerScheduler{
 			throw new \RuntimeException("Attempt to fetch undefined complex");
 		}
 		$cmplx = $this->objectStore[$for];
-		unset($this->objectStore[$for];
+		unset($this->objectStore[$for]);
 		return $cmplx;
 	}
 
