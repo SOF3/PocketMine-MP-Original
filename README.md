@@ -1,5 +1,5 @@
-# ![PocketMine-MP](http://cdn.pocketmine.net/img/PocketMine-MP-h.png)
-[![Build Status](https://travis-ci.org/iTXTech/PocketMine-MP.svg?branch=master)](https://travis-ci.org/iTXTech/PocketMine-MP)
+<!-- # ![PocketMine-MP](http://cdn.pocketmine.net/img/PocketMine-MP-h.png) -->
+[![Build Status](https://travis-ci.org/iTXTech/Phoenix.svg?branch=master)](https://travis-ci.org/iTXTech/Phoenix)
 
 __PocketMine-MP is a free, open-source software that creates Minecraft: Pocket Edition servers and allows extending its functionalities__
 

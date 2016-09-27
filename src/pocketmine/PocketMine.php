@@ -72,6 +72,7 @@ namespace pocketmine {
 	use pocketmine\utils\Utils;
 	use pocketmine\wizard\Installer;
 
+	const NAME = "Phoenix";
 	const VERSION = "1.6dev";
 	const API_VERSION = "2.0.0";
 	const CODENAME = "Unleashed";
@@ -383,7 +384,7 @@ namespace pocketmine {
 	$errors = 0;
 
 	if(php_sapi_name() !== "cli"){
-		$logger->critical("You must run PocketMine-MP using the CLI.");
+		$logger->critical("You must run " . \pocketmine\NAME . " using the CLI.");
 		++$errors;
 	}
 
@@ -457,7 +458,7 @@ namespace pocketmine {
 	}
 
 	if(\Phar::running(true) === ""){
-		$logger->warning("Non-packaged PocketMine-MP installation detected, do not use on production.");
+		$logger->warning("Non-packaged " . \pocketmine\NAME . " installation detected, do not use on production.");
 	}
 
 	ThreadManager::init();
