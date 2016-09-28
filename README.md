@@ -1,7 +1,9 @@
-<!-- # ![PocketMine-MP](http://cdn.pocketmine.net/img/PocketMine-MP-h.png) -->
+# *Phoenix*
+__Risen from the ashes of PocketMine-MP__
 [![Build Status](https://travis-ci.org/iTXTech/Phoenix.svg?branch=master)](https://travis-ci.org/iTXTech/Phoenix)
 
-__PocketMine-MP is a free, open-source software that creates Minecraft: Pocket Edition servers and allows extending its functionalities__
+## About
+Phoenix is a server software for Minecraft Pocket Edition forked from PocketMine-MP 1.6.
 
 ## Third-party Libraries/Protocols Used
 * __[PHP Sockets](http://php.net/manual/en/book.sockets.php)__
